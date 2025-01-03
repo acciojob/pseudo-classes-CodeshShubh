@@ -2,11 +2,12 @@
 :root{
 	background-color: rgb(135, 206, 235);
 }
- p:first-of-type {  /*this is select first elment */
+ p:first-child {  /*this is select first elment */
 	background-color:black;
 	color: white;
 }
-p:nth-of-type(4) {
+
+p:last-child {
   color:red;
 }
 
